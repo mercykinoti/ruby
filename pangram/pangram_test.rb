@@ -6,6 +6,9 @@ require_relative 'pangram'
 
 # Test data version: # f04fb3d
 class PangramTest < Minitest::Test
+  def skip ; 
+    
+  end
   def test_sentence_empty
     # skip
     phrase = ''

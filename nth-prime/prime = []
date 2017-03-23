@@ -1,0 +1,18 @@
+prime = []
+
+		(2..@limit).each { |num|
+			if (2..num-1).all? {|i| num % i > 0}
+				then
+					prime.push(num)
+			end
+		}
+		return prime
+
+
+		
+		prime.each do |i|			
+			while count < number
+				count += 1
+			end
+		end
+		count
